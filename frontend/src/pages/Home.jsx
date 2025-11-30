@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, SpecialityMenu, TopDoctor } from '../components'
+import { Banner, Footer, Header, SpecialityMenu, TopDoctor } from '../components'
 
 function Home() {
     return (
@@ -7,6 +7,7 @@ function Home() {
             <Header />
             <SpecialityMenu />
             <TopDoctor />
+            <Banner />
         </div>
     )
 }
