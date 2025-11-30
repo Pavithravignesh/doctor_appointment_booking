@@ -1,11 +1,13 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { About, Contact, Doctors, Home, Login, MyProfile, MyAppiontment, Appointments } from './pages'
+import { Navbar } from './components'
 
 
 const App = () => {
   return (
     <div className='mx-4 sm:mx-[10%]'>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/doctors' element={<Doctors />} />

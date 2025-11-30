@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+/* Define primary color variable */
+:root {
+    --primary: #5f6fff;
+    /* your desired primary color */
+}
+
+/* Add reusable utility classes for primary color */
+@layer utilities {
+    .bg-primary {
+        background-color: var(--primary);
+    }
+
+    .text-primary {
+        color: var(--primary);
+    }
+
+    .border-primary {
+        border-color: var(--primary);
+    }
+}
+
+.active hr {
+    @apply block
+}
