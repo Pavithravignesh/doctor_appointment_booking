@@ -26,6 +26,10 @@
         border-color: var(--primary);
     }
 
+    .hover\:bg-primary:hover {
+        background-color: var(--primary);
+    }
+
     /* Custom grid-template-columns utility */
     .grid-cols-auto {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
